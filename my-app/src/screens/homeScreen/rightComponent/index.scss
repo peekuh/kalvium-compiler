@@ -1,0 +1,29 @@
+.right-container {
+    background-color: #EDEADE;
+    padding: 20px; 
+    .header {
+        // border: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: solid;
+        .add-folder {
+            display: flex;
+            // border: 3px solid;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            transition: 0.3s;
+            height: 40px;
+            width: 45px;
+        }
+        button:hover {
+            box-shadow: 0 0 6px #dc5d5d;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 24px;
+        }
+    }
+}
