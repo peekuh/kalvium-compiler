@@ -9,6 +9,7 @@
         padding: 10px 0;
         border-bottom: solid;
         .add-folder {
+            // outline: solid;
             display: flex;
             // border: 3px solid;
             align-items: center;
@@ -24,6 +25,45 @@
         .title {
             font-weight: 600;
             font-size: 24px;
+        }
+    }
+    .folder-container {
+        .folder-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0 10px 0;
+            border-bottom: 2px solid #1E1E1E;
+            .folder-header-item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                button {
+                    background-color: #EDEADE;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+        .cards-container {
+            border: 2px solid red;
+            .card {
+                // border: 2px solid red;
+                display: flex;
+                justify-content: space-between;
+                width: 40%;
+                img {
+                    width: 50px;
+                }
+                .title-container {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .card-item {
+                    // border: 2px solid red;
+                }
+            }
+
         }
     }
 }
