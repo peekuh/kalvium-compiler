@@ -36,7 +36,7 @@
             .folder-header-item {
                 display: flex;
                 align-items: center;
-                gap: 10px;
+                gap: 7px;
                 button {
                     background-color: #EDEADE;
                     border: none;
@@ -46,12 +46,23 @@
             }
         }
         .cards-container {
-            border: 2px solid red;
+            // border: 2px solid red;
+            padding: 20px ;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-evenly;
             .card {
-                // border: 2px solid red;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 12px;
                 display: flex;
                 justify-content: space-between;
-                width: 40%;
+                align-items: center;
+                width: 43%;
+                gap: 10px;
+                box-shadow:  0 0 2px #EF3837;
+                transition-duration: 0.3s;
                 img {
                     width: 50px;
                 }
@@ -60,8 +71,14 @@
                     flex-direction: column;
                 }
                 .card-item {
-                    // border: 2px solid red;
+                    display: flex;
+                    gap: 5px;
+                    cursor: pointer;
                 }
+            }
+            .card:hover {
+                box-shadow: 0 0 8px #EF3837;
+                transform: scale(1.05);
             }
 
         }
